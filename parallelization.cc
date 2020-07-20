@@ -18,7 +18,6 @@ void Parallelization(unsigned th)
 int main()
 {
     cout<<"OpenMP Parallelization\n";
-    // Parallelization
     Parallelization(n);
 
     return 0;
