@@ -17,7 +17,7 @@ void Parallelization(unsigned th)
 
 int main()
 {
-    cout<<"OpenMP Parallelization\n";
+    cout << "OpenMP Parallelization\n";
     Parallelization(n);
 
     return 0;
