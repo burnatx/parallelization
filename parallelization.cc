@@ -8,7 +8,7 @@ void Parallelization(unsigned th)
 {
     unsigned i;
     float a[th], b[th], c[th];
-    #pragma omp parallel for shared(a, b, c) private(i)
+    #pragma omp parallel 
     for(i=0;i<th;++i)
     {
         c[i] = a[i] + b[i];
